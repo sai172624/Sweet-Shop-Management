@@ -1,136 +1,115 @@
-Sweet Shop Management System
+# 🍬 Sweet Shop Management System
 
-A full-stack Sweet Shop Management System built using MERN stack principles.
-The application supports role-based access (Admin/User), inventory management,
-ordering, authentication, and a modern frontend UI.
+A full-stack Sweet Shop Management System built using **MERN stack**.  
+The application supports **public browsing**, **user purchases**, and **admin management** with a clean and responsive UI.
 
---------------------------------------------------
+---
 
-FEATURES
+## 🚀 Live Demo
 
-Authentication & Authorization
-- User registration & login using JWT
-- Role-based access control (Admin / User)
-- Secure protected APIs
+- **Frontend (Vercel):** https://sweet-shop-management-one.vercel.app  
+- **Backend (Render):** https://sweet-shop-management-w0qq.onrender.com
 
-Sweet Management
-- Public viewing of sweets (no login required)
-- Search and filter sweets
-- Admin can add, edit, and delete sweets
-- Stock availability handling
+---
 
-Orders & Inventory
-- Add to cart and checkout (users)
-- Purchase history
-- Inventory logs
-- Admin dashboard with statistics
+## 🧰 Tech Stack
 
-Deployment
-- Backend deployed on Render
-- Frontend deployed on Vercel
-- Production-safe CORS configuration
-
---------------------------------------------------
-
-TECH STACK
-
-Frontend
+### Frontend
 - React (Vite)
-- JavaScript
-- Responsive UI
-- Deployed on Vercel
+- Tailwind CSS / Inline styling
+- Context API
+- Axios / Fetch API
 
-Backend
+### Backend
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 - JWT Authentication
-- Deployed on Render
+- Role-based Access Control
 
---------------------------------------------------
+### Deployment
+- Frontend: **Vercel**
+- Backend: **Render**
+- Database: **MongoDB Atlas**
 
-SETUP INSTRUCTIONS (LOCAL)
+---
 
-Backend
-1. Navigate to backend folder
-2. Run: npm install
-3. Run: npm start
+## ✨ Features
 
-Frontend
-1. Navigate to frontend folder
-2. Run: npm install
-3. Run: npm run dev
+### Public
+- View sweets without login
+- Filter sweets by category, price, availability
 
---------------------------------------------------
+### User
+- Register & Login
+- Add sweets to cart
+- Checkout & place orders
+- View order history
+- Profile management
 
-ENVIRONMENT VARIABLES
+### Admin
+- Add / Edit / Delete sweets
+- Manage inventory
+- View all orders
+- Dashboard with statistics
 
-Backend (.env)
+---
 
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_secret_key
-PORT=5000
 
---------------------------------------------------
+---
 
-MY AI USAGE
+## 🖥️ UI
 
-AI Tools Used
-- ChatGPT (OpenAI)
+### Sweet Listing(Admin & User)
+![Home Page](frontend/sweet-shop-management-one.vercel.app_%20%281%29.png)
 
-How I Used AI
+### Register(User)
+![Filters](frontend/sweet-shop-management-one.vercel.app_%20%283%29.png)
 
-I used ChatGPT as a development assistant throughout this project for:
+### Add Sweet(Admin)
+![Cart Page](frontend/sweet-shop-management-one.vercel.app_%20%284%29.png)
 
-Backend Development
-- Refactoring Express server into modular components
-- Structuring authentication and authorization logic
+### Inventory List(Admin)
+![Checkout](frontend/sweet-shop-management-one.vercel.app_%20%285%29.png)
 
-API Design
-- Planning RESTful API endpoints
-- Handling error responses and middleware flow
-- Improving JWT handling and security practices
+### Orders tracking(Admin)
+![Admin Dashboard](frontend/sweet-shop-management-one.vercel.app_%20%286%29.png)
 
-Frontend Development
-- Structuring React components
-- Debugging state management and conditional rendering
-- Improving navigation flow and UI behavior
+### Dashboard (admin)
+![Inventory](frontend/sweet-shop-management-one.vercel.app_%20%287%29.png)
 
-Debugging & Deployment
-- Fixing CORS issues
-- Configuring backend deployment on Render
-- Resolving frontend build and deployment issues on Vercel
+---
 
-Best Practices
-- Clean code principles
-- Scalability and maintainability improvements
+## 🔐 Authentication & Security
 
---------------------------------------------------
+- JWT-based authentication
+- Protected API routes
+- Role-based access (User / Admin)
+- Public sweets listing (no login required)
 
-REFLECTION ON AI IMPACT
 
-Using AI significantly improved my development workflow.
+---
 
-- Reduced development time
-- Helped resolve blockers quickly
-- Improved debugging efficiency
-- Allowed focus on system design and logic
+## 🔐 Authentication & Authorization
 
-AI was used as a support tool.
-All final decisions and implementations were done manually.
+- JWT-based authentication
+- Protected routes for users and admins
+- Public APIs for browsing sweets
+- Secure role-based access
 
---------------------------------------------------
+---
 
-FUTURE IMPROVEMENTS
+## 📦 Future Enhancements
+- Payment gateway integration
+- Order status tracking
+- Invoice generation
+- Advanced analytics
+- Test Driven Development (Jest + Supertest)
 
-- Test-Driven Development (Jest + Supertest)
-- Improved API validation
-- Dockerization
-- CI/CD pipelines
-- Enhanced admin analytics
+---
 
---------------------------------------------------
+## 👨‍💻 Author
 
-AUTHOR
+Aviresh Laxman Sai  
 
-Sai Laxman
+
