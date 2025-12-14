@@ -1,0 +1,14 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# MongoDB memory server cache
+.cache/
+mongodb-memory-server/
+
+# Env
+.env
+
+# OS
+.DS_Store
