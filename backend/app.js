@@ -14,7 +14,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-this-in-pro
 
 // CORS Configuration - Update port if your frontend uses 5175
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5175'], 
+  origin: ['http://localhost:5173', 'http://localhost:5175','https://sweet-shop-management-one.vercel.app/'], 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
