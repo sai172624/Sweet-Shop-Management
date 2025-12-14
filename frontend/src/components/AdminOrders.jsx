@@ -10,7 +10,7 @@ export default function AdminOrders() {
 
   const fetchOrders = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/purchases', {
+      const res = await fetch('https://sweet-shop-management-w0qq.onrender.com/api/purchases', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }

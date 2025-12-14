@@ -11,7 +11,7 @@ export default function Inventory() {
 
   const fetchInventory = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/sweets', {
+      const res = await fetch('https://sweet-shop-management-w0qq.onrender.com/api/sweets', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }

@@ -37,7 +37,7 @@ export default function Checkout({ cart, clearCart, goOrders }) {
     try {
       for (const item of cart) {
         const res = await fetch(
-          `http://localhost:5001/api/sweets/${item._id}/purchase`,
+          `https://sweet-shop-management-w0qq.onrender.com/api/sweets/${item._id}/purchase`,
           {
             method: 'POST',
             headers: {

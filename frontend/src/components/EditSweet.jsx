@@ -10,7 +10,7 @@ export default function EditSweet({ sweet, onBack, onUpdated }) {
     setError('')
     setLoading(true)
     try {
-      const res = await fetch(`http://localhost:5001/api/sweets/${sweet._id}`, {
+      const res = await fetch(`https://sweet-shop-management-w0qq.onrender.com/api/sweets/${sweet._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

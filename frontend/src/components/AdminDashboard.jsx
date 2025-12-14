@@ -10,7 +10,7 @@ export default function AdminDashboard() {
 
   const fetchStats = async () => {
     try {
-      const res = await fetch('http://localhost:5001/api/stats/dashboard', {
+      const res = await fetch('https://sweet-shop-management-w0qq.onrender.com/api/stats/dashboard', {
         headers: {
           Authorization: `Bearer ${localStorage.getItem('token')}`
         }

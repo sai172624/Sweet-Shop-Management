@@ -20,7 +20,7 @@ export default function AddSweet() {
     setLoading(true)
 
     try {
-      const res = await fetch('http://localhost:5001/api/sweets', {
+      const res = await fetch('https://sweet-shop-management-w0qq.onrender.com/api/sweets', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

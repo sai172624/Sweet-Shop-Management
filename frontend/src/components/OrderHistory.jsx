@@ -9,7 +9,7 @@ export default function OrderHistory() {
 
   // --- LOGIC (Unchanged) ---
   useEffect(() => {
-    fetch('http://localhost:5001/api/purchases/my-history', {
+    fetch('https://sweet-shop-management-w0qq.onrender.com/api/purchases/my-history', {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`
       }

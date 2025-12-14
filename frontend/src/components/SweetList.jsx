@@ -43,8 +43,8 @@ export default function SweetList({ user, addToCart, cart = [], setPage }) {
 
       // ✅ Keeping your PUBLIC route exactly as requested
       const url = params.toString()
-        ? `http://localhost:5001/api/public/sweets/search?${params.toString()}`
-        : `http://localhost:5001/api/public/sweets`
+        ? `https://sweet-shop-management-w0qq.onrender.com/api/public/sweets/search?${params.toString()}`
+        : `https://sweet-shop-management-w0qq.onrender.com/api/public/sweets`
 
       const res = await fetch(url) 
 
